@@ -35,7 +35,7 @@ jobs:
 
       # 4) Set up Python
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5  # I changed this as v4 -> v5
         with:
           python-version: '3.12'  # I changed this as 3.x -> 3.12
 
