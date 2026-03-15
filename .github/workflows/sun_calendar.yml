@@ -42,7 +42,7 @@ jobs:
       # 5) Install Python dependencies
       - name: Install dependencies
         run: |
-           pip install requests pytz "ics==0.7.2" "TatSu<5"
+           pip install requests pytz rich "ics==0.7.2" "TatSu<5"
 #          pip install requests ics pytz
 
       # 6) Run your script to generate the ICS file
